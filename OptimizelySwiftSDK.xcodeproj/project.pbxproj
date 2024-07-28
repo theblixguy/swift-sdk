@@ -2142,6 +2142,7 @@
 		6EE591192649CF640013AD66 /* LoggerTests_MultiClients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerTests_MultiClients.swift; sourceTree = "<group>"; };
 		6EE5918D264AF44B0013AD66 /* HandlerRegistryServiceTests_MultiClients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerRegistryServiceTests_MultiClients.swift; sourceTree = "<group>"; };
 		6EE59284264DCD100013AD66 /* MultiClientsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiClientsTests.swift; sourceTree = "<group>"; };
+		6EF212AA2C55E37000866330 /* OptimizelySwiftSDK-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OptimizelySwiftSDK-iOS copy-Info.plist"; path = "/Users/suyash.x.srijan/Documents/Personal_Projects/swift-sdk/OptimizelySwiftSDK-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		6EF8DE0524B8DA58008B9488 /* decide_datafile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = decide_datafile.json; sourceTree = "<group>"; };
 		6EF8DE0A24BD1BB1008B9488 /* OptimizelyDecision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimizelyDecision.swift; sourceTree = "<group>"; };
 		6EF8DE0B24BD1BB2008B9488 /* OptimizelyDecideOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptimizelyDecideOption.swift; sourceTree = "<group>"; };
@@ -2294,6 +2295,7 @@
 				0B7CB0C321AC5FE2007B77E5 /* Products */,
 				5793E12CFD024A5E8594F535 /* Pods */,
 				87DE4DE091B80D1F13BBD781 /* Frameworks */,
+				6EF212AA2C55E37000866330 /* OptimizelySwiftSDK-iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5421,6 +5423,7 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				XROS_DEPLOYMENT_TARGET = 1.2;
 			};
 			name = Debug;
 		};
@@ -5485,6 +5488,7 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				XROS_DEPLOYMENT_TARGET = 1.2;
 			};
 			name = Release;
 		};
@@ -5995,9 +5999,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.optimizely.OptimizelySwiftSDK;
 				PRODUCT_NAME = Optimizely;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -6023,9 +6028,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.optimizely.OptimizelySwiftSDK;
 				PRODUCT_NAME = Optimizely;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
